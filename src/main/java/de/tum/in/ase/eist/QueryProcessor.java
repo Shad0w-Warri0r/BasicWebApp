@@ -15,11 +15,11 @@ public class QueryProcessor {
             return "maria";
         } else if (query.contains("what is") && query.contains("plus")) {
             String[] arr = query.split(" ");
-            if (arr.length < 5) {
+            if (arr.length < 6) {
                 return "";
             }
-            int zahl1 = Integer.parseInt(arr[2]);
-            int zahl2 = Integer.parseInt(arr[4]);
+            int zahl1 = Integer.parseInt(arr[3]);
+            int zahl2 = Integer.parseInt(arr[5]);
             int erg = zahl1 + zahl2;
             return "" + erg;
         } else { // TODO extend the programm here
