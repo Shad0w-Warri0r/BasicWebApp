@@ -12,7 +12,7 @@ public class QueryProcessor {
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
-            return "MyTeam";
+            return "maria";
         } else if (query.contains("what is") && query.contains("plus")) {
             String[] arr = query.split(" ");
             if (arr.length < 5) {
